@@ -3,7 +3,7 @@ import { AspectRatio } from "../ui/aspect-ratio";
 
 export default function Hero() {
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto min-h-screen px-4">
       <div className="flex flex-col items-center justify-center text-center">
         <div className="text-primary scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
           GIỚI THIỆU
@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="flex items-center justify-center transition-transform hover:scale-110">
           <AspectRatio ratio={16 / 9}>
             <Image src={"/logo.png"} alt="" fill />
-          </AspectRatio>
+          </AspectRatio>{" "}
         </div>
         <ul className="text-primary my-6 ml-6 list-disc text-xl [&_span]:font-bold [&>li]:mt-2">
           <li>

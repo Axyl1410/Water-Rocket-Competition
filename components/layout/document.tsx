@@ -12,7 +12,7 @@ export default function Document() {
           </div>
           <div className="text-primary">————— ♦ —————</div>
         </div>
-        <div className="flex w-full flex-col items-center justify-evenly gap-12 md:flex-row [&>div]:flex [&>div]:w-3/4 [&>div]:items-center [&>div]:justify-center [&>div]:md:w-1/2">
+        <div className="flex w-full flex-col items-center justify-evenly gap-12 md:flex-row [&>div]:flex [&>div]:w-4/5 [&>div]:items-center [&>div]:justify-center [&>div]:md:w-1/2">
           <ButtonLink text={"KẾ HOẠCH"} />
           <ButtonLink text={"THỂ LỆ"} />
         </div>
