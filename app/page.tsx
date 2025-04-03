@@ -1,6 +1,7 @@
 import Document from "@/components/layout/document";
 import Hero from "@/components/layout/hero";
 import Location from "@/components/layout/location";
+import Register from "@/components/layout/register";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Document />
       <Location />
+      <Register />
     </div>
   );
 }
