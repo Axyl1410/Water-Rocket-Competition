@@ -5,11 +5,11 @@ import Register from "@/components/layout/register";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center gap-4 pt-15">
+    <div className="flex flex-col items-center pt-15">
       <Hero />
       <Document />
-      <Location />
       <Register />
+      <Location />
     </div>
   );
 }

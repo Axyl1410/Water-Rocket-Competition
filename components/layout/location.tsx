@@ -14,20 +14,14 @@ export default function Location() {
         </p>
         <div className="flex flex-col items-center justify-center gap-4">
           <p className="text-primary text-center text-xl font-bold">
-            Trường Đại học Bách khoa, ĐHQG-HCM
+            Trường Cao Đẳng Hậu Cần 2
           </p>
-          <p className="text-center">
-            Sân thi đấu chính thức của Hội thi <br />
-            là sân bóng của Trường Đại học Bách khoa, ĐHQG-HCM
-          </p>
-          <p>
-            Số 268, đường Lý Thường Kiệt, Phường 14, Quận 10, Thành phố Hồ Chí
-            Minh
-          </p>
+
+          <p>50 Lê Văn Việt, Hiệp Phú, Thủ Đức, Hồ Chí Minh, Việt Nam</p>
         </div>
         <div className="flex w-full flex-col-reverse gap-4">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7839.009024223357!2d106.659337!3d10.772618!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ec3d2692625%3A0xf19953e7c2512d3a!2zSENNVVQgRm9vdGJhbGwgRmllbGQsIFBoxrDhu51uZyAxNCwgUXXhuq1uIDEwLCBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2sus!4v1743538492479!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.5439019285222!2d106.77506797420703!3d10.846173857905043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175270c3865c273%3A0x3e361dab0a829fb5!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIEjhuq11IEPhuqduIDI!5e0!3m2!1svi!2s!4v1743788955976!5m2!1svi!2s"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"

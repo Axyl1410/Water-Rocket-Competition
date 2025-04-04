@@ -15,7 +15,7 @@ export default function Register() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="rounded-sm bg-white px-4 py-2 font-bold text-black shadow">
+            <button className="cursor-pointer rounded-sm bg-white px-4 py-2 font-bold text-black shadow transition-colors hover:bg-slate-50">
               Đăng ký tại đây
             </button>
           </a>
