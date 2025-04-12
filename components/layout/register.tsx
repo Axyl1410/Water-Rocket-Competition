@@ -9,7 +9,7 @@ export default function Register() {
           </div>
           <div className="text-primary">————— ♦ —————</div>
         </div>
-        <div className="flex justify-center pt-10">
+        <div className="flex justify-center pt-5">
           <a
             href="https://docs.google.com/forms/d/1RA9vx6x2aFPy0ejb1ZiaewRJOqlaj83IuLUP5hKpdMM/viewform?edit_requested=true"
             target="_blank"

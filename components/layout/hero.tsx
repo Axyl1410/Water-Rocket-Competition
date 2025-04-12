@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="grid-cols-2 lg:grid">
         <div className="flex items-center justify-center transition-transform hover:scale-110">
           <AspectRatio ratio={16 / 9}>
-            <Image src={"/logo.png"} alt="" fill />
+            <Image src={"/logo.png"} alt="" fill priority />
           </AspectRatio>{" "}
         </div>
         <ul className="text-primary my-6 ml-6 list-disc text-xl [&_span]:font-bold [&>li]:mt-2">

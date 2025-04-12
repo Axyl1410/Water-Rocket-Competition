@@ -25,30 +25,21 @@ export default function Document() {
         </div>
         <div className="flex-wrap justify-center gap-12 md:flex">
           <Card
-            title={
-              "Vòng 1: Thi tìm hiểu kiến thức trực tuyến “Giải mã Tên lửa nước”"
-            }
+            title={"Vòng 1 Bắn Tên lửa nước tầm xa tính điểm"}
             image={"/img1.JPG"}
             description={
               "Thực hiện thử thách bắn tên lửa nước đến điểm xa nhất trong sân thi đấu để tính điểm"
             }
           />
           <Card
-            title={"Vòng 2 Bắn Tên lửa nước tầm xa tính điểm"}
-            image={"/img1.JPG"}
-            description={
-              "Thực hiện thử thách bắn tên lửa nước đến điểm xa nhất trong sân thi đấu để tính điểm"
-            }
-          />
-          <Card
-            title={"Vòng 3: Bắn Tên lửa nước tầm cao bung dù"}
+            title={"Vòng 2: Bắn Tên lửa nước tầm cao bung dù"}
             image={"/img3.JPG"}
             description={
               "Thực hiện bắn tên lửa nước có hệ thống bung dù để giữ tên lửa trên không"
             }
           />
           <Card
-            title={"Vòng 4: Bắn Tên lửa nước tầm xa trúng mục tiêu"}
+            title={"Vòng 3: Bắn Tên lửa nước tầm xa trúng mục tiêu"}
             image={"/img4.JPG"}
             description={
               "Thực hiện bắn tên lửa nước trúng mục tiêu của Ban tổ chức công bố"
