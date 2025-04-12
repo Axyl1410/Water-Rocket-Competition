@@ -47,7 +47,7 @@ export default function Location() {
         <p className="pb-8 text-center text-sm leading-none font-medium">
           Bạn cần thêm thông tin, hãy liên hệ với chúng tôi.
         </p>
-        <div className="grid w-full grid-cols-2 gap-4">
+        <div className="flex w-full grid-cols-2 flex-col-reverse gap-4 md:grid">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.5439019285222!2d106.77506797420703!3d10.846173857905043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175270c3865c273%3A0x3e361dab0a829fb5!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIEjhuq11IEPhuqduIDI!5e0!3m2!1svi!2s!4v1743788955976!5m2!1svi!2s"
             allowFullScreen
