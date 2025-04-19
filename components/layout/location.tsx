@@ -31,7 +31,7 @@ export default function Location() {
             <div className="mb-4 max-h-[416px] w-full overflow-hidden md:mb-0">
               <AspectRatio ratio={1 / 1}>
                 <Image
-                  src={"/img6.jpeg"}
+                  src={"/img6.jpg"}
                   alt=""
                   fill
                   className="max-h-[400px] w-full object-cover"

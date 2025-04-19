@@ -53,13 +53,15 @@ export default function Document() {
 
 function ButtonLink({ text }: { text: string }) {
   return (
-    <div className="bg-gradient-to-r from-[#667db6] to-[#0082c8] p-5 md:mx-10 md:p-10">
-      <button className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-white bg-transparent px-6 text-xl font-medium text-neutral-200">
-        <span>{text}</span>
-        <div className="w-0 translate-x-[100%] pl-0 opacity-0 transition-all duration-200 group-hover:w-5 group-hover:translate-x-0 group-hover:pl-1 group-hover:opacity-100">
-          <ArrowRight size={24} />
-        </div>
-      </button>
+    <div className="cursor-pointer bg-gradient-to-r from-[#667db6] to-[#0082c8] p-5 md:mx-10 md:p-10">
+      <a href="/kehoach.pdf" download>
+        <button className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-white bg-transparent px-6 text-xl font-medium text-neutral-200">
+          <span>{text}</span>
+          <div className="w-0 translate-x-[100%] pl-0 opacity-0 transition-all duration-200 group-hover:w-5 group-hover:translate-x-0 group-hover:pl-1 group-hover:opacity-100">
+            <ArrowRight size={24} />
+          </div>
+        </button>
+      </a>
     </div>
   );
 }
