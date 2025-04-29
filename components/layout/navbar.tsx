@@ -10,11 +10,9 @@ import Sidebar from "./sidebar";
 
 const navItems = [
   { label: "Trang chủ", href: "/" },
-  { label: "Giới thiệu", href: "/gioi-thieu" },
-  { label: "Mốc thời gian", href: "/moc-thoi-gian" },
-  { label: "Các thử thách", href: "/cac-thu-thach" },
-  { label: "Địa điểm", href: "/dia-diem" },
-  { label: "Thư viện ảnh", href: "/thu-vien-anh" },
+  { label: "Thể lệ", href: "#" },
+  { label: "Mốc thời gian", href: "#" },
+  { label: "Thư viện ảnh", href: "#" },
 ];
 
 export default function Navbar() {

@@ -6,6 +6,22 @@ export default function Location() {
     <div className="container mx-auto px-4">
       <div className="flex flex-col items-center justify-center gap-4 py-15">
         <div className="text-primary scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
+          ĐƠN VỊ TỔ CHỨC
+        </div>
+        <div className="text-primary">————— ♦ —————</div>
+        <div className="mb-20 flex gap-4">
+          <div className="mb-4 h-30 w-30 overflow-hidden md:mb-0">
+            <AspectRatio ratio={1 / 1}>
+              <Image src={"/LogoDoan.jpg"} alt="" fill className="h-30 w-30" />
+            </AspectRatio>
+          </div>
+          <div className="mb-4 h-30 w-30 overflow-hidden md:mb-0">
+            <AspectRatio ratio={1 / 1}>
+              <Image src={"/LogoTST.png"} alt="" fill className="h-30 w-30" />
+            </AspectRatio>
+          </div>
+        </div>
+        <div className="text-primary scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
           ĐỊA ĐIỂM TỔ CHỨC
         </div>
         <div className="text-primary">————— ♦ —————</div>
@@ -74,8 +90,8 @@ export default function Location() {
               </li>
               <li>
                 <span>Facebook:</span>{" "}
-                <a href="facebook.com/tinhoctre.hcm">
-                  facebook.com/tinhoctre.hcm
+                <a href="facebook.com/hoithitenluanuoc">
+                  facebook.com/hoithitenluanuoc
                 </a>
               </li>
               <li>
