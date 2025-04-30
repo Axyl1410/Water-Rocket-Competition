@@ -10,8 +10,6 @@ import Sidebar from "./sidebar";
 
 const navItems = [
   { label: "Trang chủ", href: "/" },
-  { label: "Thể lệ", href: "#" },
-  { label: "Mốc thời gian", href: "#" },
   { label: "Thư viện ảnh", href: "#" },
 ];
 
