@@ -3,7 +3,7 @@ import { AspectRatio } from "../ui/aspect-ratio";
 
 export default function Hero() {
   return (
-    <div className="container mx-auto min-h-screen px-4">
+    <div className="container mx-auto px-4 pb-4">
       <div className="flex flex-col items-center justify-center text-center">
         <div className="text-primary scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
           GIỚI THIỆU

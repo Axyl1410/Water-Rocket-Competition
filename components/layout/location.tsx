@@ -34,7 +34,7 @@ export default function Location() {
         </div>
         <div className="flex w-full flex-col-reverse gap-4">
           <div className="gap-4 overflow-hidden md:flex md:h-[400px]">
-            <div className="mb-4 max-h-[416px] w-full overflow-hidden md:mb-0">
+            <div className="mb-4 max-h-[416px] w-full overflow-hidden rounded-md md:mb-0">
               <AspectRatio ratio={1 / 1}>
                 <Image
                   src={"/img5.jpg"}
@@ -44,7 +44,7 @@ export default function Location() {
                 />
               </AspectRatio>
             </div>
-            <div className="mb-4 max-h-[416px] w-full overflow-hidden md:mb-0">
+            <div className="mb-4 max-h-[416px] w-full overflow-hidden rounded-md md:mb-0">
               <AspectRatio ratio={1 / 1}>
                 <Image
                   src={"/img6.jpg"}

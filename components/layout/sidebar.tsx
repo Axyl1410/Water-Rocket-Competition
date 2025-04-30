@@ -21,10 +21,6 @@ type SidebarProps = {
 
 const navItems = [
   { label: "Trang chủ", href: "/" },
-  { label: "Giới thiệu", href: "/gioi-thieu" },
-  { label: "Mốc thời gian", href: "/moc-thoi-gian" },
-  { label: "Các thử thách", href: "/cac-thu-thach" },
-  { label: "Địa điểm", href: "/dia-diem" },
   { label: "Thư viện ảnh", href: "/thu-vien-anh" },
 ];
 
